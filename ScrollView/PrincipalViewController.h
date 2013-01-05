@@ -8,6 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface PrincipalViewController : UIViewController
+@interface PrincipalViewController : UIViewController <UIScrollViewDelegate>
+
+@property (nonatomic, weak) IBOutlet UIScrollView *meuScroll;
+@property (nonatomic, weak) IBOutlet UIPageControl *meuControl;
+
+-(IBAction)pageControlMudou:(id)sender;
 
 @end

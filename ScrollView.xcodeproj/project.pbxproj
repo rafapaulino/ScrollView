@@ -21,6 +21,12 @@
 		6A6E72E915ECF0FB00B49D35 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A6E72C715ECF0FA00B49D35 /* Foundation.framework */; };
 		6A6E72F115ECF0FB00B49D35 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6A6E72EF15ECF0FB00B49D35 /* InfoPlist.strings */; };
 		6A6E72F415ECF0FB00B49D35 /* ScrollViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A6E72F315ECF0FB00B49D35 /* ScrollViewTests.m */; };
+		6A6E730315ECF14000B49D35 /* wallpaper0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6A6E72FD15ECF14000B49D35 /* wallpaper0.jpg */; };
+		6A6E730415ECF14000B49D35 /* wallpaper1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6A6E72FE15ECF14000B49D35 /* wallpaper1.jpg */; };
+		6A6E730515ECF14000B49D35 /* wallpaper2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6A6E72FF15ECF14000B49D35 /* wallpaper2.jpg */; };
+		6A6E730615ECF14000B49D35 /* wallpaper3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6A6E730015ECF14000B49D35 /* wallpaper3.jpg */; };
+		6A6E730715ECF14000B49D35 /* wallpaper4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6A6E730115ECF14000B49D35 /* wallpaper4.jpg */; };
+		6A6E730815ECF14000B49D35 /* wallpaper5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6A6E730215ECF14000B49D35 /* wallpaper5.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +60,12 @@
 		6A6E72F015ECF0FB00B49D35 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6A6E72F215ECF0FB00B49D35 /* ScrollViewTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScrollViewTests.h; sourceTree = "<group>"; };
 		6A6E72F315ECF0FB00B49D35 /* ScrollViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrollViewTests.m; sourceTree = "<group>"; };
+		6A6E72FD15ECF14000B49D35 /* wallpaper0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wallpaper0.jpg; sourceTree = "<group>"; };
+		6A6E72FE15ECF14000B49D35 /* wallpaper1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wallpaper1.jpg; sourceTree = "<group>"; };
+		6A6E72FF15ECF14000B49D35 /* wallpaper2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wallpaper2.jpg; sourceTree = "<group>"; };
+		6A6E730015ECF14000B49D35 /* wallpaper3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wallpaper3.jpg; sourceTree = "<group>"; };
+		6A6E730115ECF14000B49D35 /* wallpaper4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wallpaper4.jpg; sourceTree = "<group>"; };
+		6A6E730215ECF14000B49D35 /* wallpaper5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wallpaper5.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +125,7 @@
 		6A6E72CB15ECF0FA00B49D35 /* ScrollView */ = {
 			isa = PBXGroup;
 			children = (
+				6A6E730915ECF16600B49D35 /* imagens */,
 				6A6E72D415ECF0FA00B49D35 /* PrincipalAppDelegate.h */,
 				6A6E72D515ECF0FA00B49D35 /* PrincipalAppDelegate.m */,
 				6A6E72D715ECF0FA00B49D35 /* MainStoryboard_iPhone.storyboard */,
@@ -152,6 +165,19 @@
 				6A6E72EF15ECF0FB00B49D35 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6A6E730915ECF16600B49D35 /* imagens */ = {
+			isa = PBXGroup;
+			children = (
+				6A6E72FD15ECF14000B49D35 /* wallpaper0.jpg */,
+				6A6E72FE15ECF14000B49D35 /* wallpaper1.jpg */,
+				6A6E72FF15ECF14000B49D35 /* wallpaper2.jpg */,
+				6A6E730015ECF14000B49D35 /* wallpaper3.jpg */,
+				6A6E730115ECF14000B49D35 /* wallpaper4.jpg */,
+				6A6E730215ECF14000B49D35 /* wallpaper5.jpg */,
+			);
+			name = imagens;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,6 +255,12 @@
 				6A6E72D015ECF0FA00B49D35 /* InfoPlist.strings in Resources */,
 				6A6E72D915ECF0FA00B49D35 /* MainStoryboard_iPhone.storyboard in Resources */,
 				6A6E72DC15ECF0FA00B49D35 /* MainStoryboard_iPad.storyboard in Resources */,
+				6A6E730315ECF14000B49D35 /* wallpaper0.jpg in Resources */,
+				6A6E730415ECF14000B49D35 /* wallpaper1.jpg in Resources */,
+				6A6E730515ECF14000B49D35 /* wallpaper2.jpg in Resources */,
+				6A6E730615ECF14000B49D35 /* wallpaper3.jpg in Resources */,
+				6A6E730715ECF14000B49D35 /* wallpaper4.jpg in Resources */,
+				6A6E730815ECF14000B49D35 /* wallpaper5.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
